@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layered Warrior Recolor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Warrior Recolor Demo</h1>
+    <p>Use the color pickers to change the color of each layer.</p>
+    <div class="main-container">
+        <div class="canvas-container">
+            <canvas id="warriorCanvas" width="512" height="768"></canvas>
+            <div id="loading">Loading assets...</div>
+        </div>
+        <div class="controls">
+            <div class="control-group">
+                <label for="hairColor">Hair</label>
+                <input type="color" id="hairColor" value="#554236">
+            </div>
+            <div class="control-group">
+                <label for="skinColor">Skin</label>
+                <input type="color" id="skinColor" value="#C58C85">
+            </div>
+            <div class="control-group">
+                <label for="armorBaseColor">Armor Base</label>
+                <input type="color" id="armorBaseColor" value="#4A6A8A">
+            </div>
+            <div class="control-group">
+                <label for="armorTrimColor">Armor Trim</label>
+                <input type="color" id="armorTrimColor" value="#FFD700">
+            </div>
+             <button id="resetButton">Reset Colors</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
